@@ -2,7 +2,7 @@ require_relative 'boot'
 
 require 'tiny_rails'
 
-Bundler.require(*Rails.groups)
+Bundler.require(*TinyRails.groups)
 
 module SampleApp
   class Application < TinyRails::Application
