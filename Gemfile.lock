@@ -1,7 +1,12 @@
 PATH
   remote: ../tiny_rails
   specs:
+    tiny_actionpack (0.1.0)
     tiny_rails (0.1.0)
+      tiny_actionpack (= 0.1.0)
+      tiny_railties (= 0.1.0)
+    tiny_railties (0.1.0)
+      tiny_actionpack (= 0.1.0)
 
 GEM
   remote: https://rubygems.org/
