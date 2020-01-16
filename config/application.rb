@@ -1,6 +1,6 @@
-require_relative 'boot'
+require_relative "boot"
 
-require 'tiny_rails'
+require "tiny_rails"
 
 module SampleApp
   class Application < TinyRails::Application
